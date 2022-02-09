@@ -1,0 +1,79 @@
+.banner{
+    filter: brightness(50%);
+}
+
+.button1{
+    background-color: transparent;
+    color:#5489A3 ;
+    border: 1px solid #5489A3;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.card {
+    margin: 30px;
+    width: 288px;
+    height: 454px;
+    background-color:#F2F2F2;
+    border: none;
+}
+.bgd{
+    position: relative;
+}
+.over{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+.quotation-mark{
+    width: 30px;
+    height: 50px;
+}
+.over-2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+.over-3 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.button-2{
+    color:#5A9C00;
+    border: none;
+    padding: 10px 32px;
+
+}
+.border{
+    border-bottom: 3px solid #5489A3;
+    width: 50%;
+  }
+  table {
+    width: 100%;
+  }
+table tr th{
+    border: 2px solid #181a1a;
+  }
+.sm-title{
+   
+    display: none;
+}
+  @media only screen and (max-width: 600px) {
+      .sm-title{
+        display: block;
+        background-color: #5A9C00;
+      }
+      .quotation-mark{
+          width: 15px;
+          height: 15px;
+      }
+      .map{
+        visibility: hidden;
+        display: none;
+      }
+  }
