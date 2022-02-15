@@ -12,31 +12,26 @@
     display: inline-block;
     font-size: 16px;
 }
-.card {
-    margin: 30px;
+.card-title{
+    background-color: #5489A3;
+    color: #fff;
+    height: 121px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
     width: 288px;
     height: 454px;
     background-color:#F2F2F2;
-    border: none;
 }
-.bgd{
+.green{
     position: relative;
-}
-.over{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-60%, -50%);
-}
-.quotation-mark{
-    width: 30px;
-    height: 50px;
-}
-.over-2{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-40%, -50%);
+    background-image: url("img/forest.jpg");
+    background-size:cover ;
+    height: 396px;
+
 }
 .over-3 {
     position: absolute;
@@ -47,31 +42,27 @@
     color:#5A9C00;
     border: none;
     padding: 10px 32px;
-
 }
 .border{
     border-bottom: 3px solid #5489A3;
     width: 50%;
-  }
-  table {
+}
+table {
     width: 100%;
-  }
+}
 table tr th{
     border: 2px solid #181a1a;
-  }
-.sm-title{
-   
-    display: none;
+}
+.slider{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+ 
 }
   @media only screen and (max-width: 600px) {
-      .sm-title{
-        display: block;
-        background-color: #5A9C00;
-      }
-      .quotation-mark{
-          width: 15px;
-          height: 15px;
-      }
       .map{
         visibility: hidden;
         display: none;
