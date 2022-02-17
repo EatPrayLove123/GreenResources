@@ -1,9 +1,7 @@
 body {
     font-family: 'Hind Guntur';
 }
-.banner{
-    filter: brightness(50%);
-}
+
 .img1{
     background:  rgba(0, 0, 0, 0.5) url("img/banner 2.jpg");
     background-blend-mode: darken;
@@ -75,11 +73,7 @@ body {
     background-size:cover ;
     height: 396px;
 }
-.over-3 {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-}
+
 .button-2{
     color:#5A9C00;
     border: none;
@@ -92,18 +86,19 @@ body {
 table {
     width: 100%;
 }
-table tr th{
-    border: 2px solid #181a1a;
-}
-.slider{
-    position: relative;
-}
-.banner-title{
-    position: absolute;
-  
+table tr th {
+    border: 2px solid #181a1a; 
 }
 .footer{
-    margin: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.subtitlu{
+    font-size: 48px;
+    
+}
+.titlu{
+    font-size: 91px;
 }
 
   @media only screen and (max-width: 600px) {
@@ -111,5 +106,18 @@ table tr th{
         visibility: hidden;
         display: none;
       }
-    
-  }
+      .subtitlu{
+        font-size: 34px;
+        align-self: center;
+        margin-top: 45px;
+        }
+        .titlu{
+            font-size: 64px;
+            align-self: inherit;
+        
+        }
+        .paragraf{
+            margin-top: 45px;
+        }
+        
+    }
