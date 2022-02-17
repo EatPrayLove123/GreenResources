@@ -1,7 +1,49 @@
+body {
+    font-family: 'Hind Guntur';
+}
 .banner{
     filter: brightness(50%);
 }
+.img1{
+    background:  rgba(0, 0, 0, 0.5) url("img/banner 2.jpg");
+    background-blend-mode: darken;
+    height: 396px;
+}
+.img2{
+    background:  rgba(0, 0, 0, 0.5)url("img/_0002_shutterstock_795715315.png") ;
+    background-blend-mode: darken;
+    height: 396px;
+}
+.img3{
+    background:  rgba(0, 0, 0, 0.5)url("img/banner 3.jpg");
+    background-blend-mode: darken;
+    height: 396px;
+}
+.slick-dots li {
+    margin: 20px;
+}
+.slick-dots {
+    margin-top: -10px;
+}
 
+.slick-dots li button:before, .slick-dots li.slick-active button:before {
+    color: transparent;
+    opacity: 1;   
+}
+
+.slick-dots li button:before {
+    margin-top: -20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    display: inline-block;
+    height: 5px;
+    width: 36px;
+}
+.slick-dots li.slick-active button:before {
+    background-color:#5489A3;
+    border: #5489A3;
+}
 .button1{
     background-color: transparent;
     color:#5489A3 ;
@@ -26,12 +68,12 @@
     height: 454px;
     background-color:#F2F2F2;
 }
-.green{
+.green {
     position: relative;
-    background-image: url("img/forest.jpg");
+    background:  rgba(0, 0, 0, 0.4) url("img/fiber_carusel_2.png");
+    background-blend-mode: darken;
     background-size:cover ;
     height: 396px;
-
 }
 .over-3 {
     position: absolute;
@@ -58,13 +100,16 @@ table tr th{
 }
 .banner-title{
     position: absolute;
-    top: 30%;
-    right: 10%;
- 
+  
 }
+.footer{
+    margin: 150px;
+}
+
   @media only screen and (max-width: 600px) {
       .map{
         visibility: hidden;
         display: none;
       }
+    
   }
