@@ -1,7 +1,6 @@
 body {
     font-family: 'Hind Guntur';
 }
-
 .img1{
     background:  rgba(0, 0, 0, 0.5) url("img/banner 2.jpg");
     background-blend-mode: darken;
@@ -51,6 +50,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+
 }
 .card-title{
     background-color: #5489A3;
@@ -78,24 +78,25 @@ body {
     color:#5A9C00;
     border: none;
     padding: 10px 32px;
+    align-items: right;
 }
 .border{
     border-bottom: 3px solid #5489A3;
-    width: 50%;
+    width: 120px;
 }
 table {
-    width: 100%;
+    width: 70%;
 }
 table tr th {
     border: 2px solid #181a1a; 
 }
 .footer{
-    margin-left: 50px;
-    margin-right: 50px;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
 }
 .subtitlu{
-    font-size: 48px;
-    
+    font-size: 48px;  
 }
 .titlu{
     font-size: 91px;
@@ -106,18 +107,31 @@ table tr th {
         visibility: hidden;
         display: none;
       }
+      .titlu{
+          text-align: center;
+      }
       .subtitlu{
-        font-size: 34px;
-        align-self: center;
-        margin-top: 45px;
-        }
-        .titlu{
-            font-size: 64px;
-            align-self: inherit;
-        
-        }
-        .paragraf{
-            margin-top: 45px;
-        }
-        
+          text-align: center;
+      }
+     .paragraf{
+        font-size: small;
+      }
+     .logo {
+        width: 100%;
+      }
+     .cards {
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+      }
+     .button1{
+            width:50%;
+            margin-left:25%;
+            margin-right:25%;   
+      }
+     .button-2{
+            width:50%;
+            margin-left:25%;
+            margin-right:25%;
+      }
     }
